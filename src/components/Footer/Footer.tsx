@@ -6,7 +6,7 @@ export default function Footer(props: any) {
     <div className="Footer">
       <div className="footer-main">
         <p className="footer-copyright">
-          © {new Date().getFullYear()} FronckTeam. All rights reserved
+         <a href="https://instagram.com/fronckteam/" target="_blank"> © {new Date().getFullYear()} FronckTeam. All rights reserved</a>
         </p>
       </div>
 
