@@ -21,6 +21,7 @@
 
 ## Programming languages used
 Input:
+- `Typescript`
 - `React.js`
 - `Next.js`
 
