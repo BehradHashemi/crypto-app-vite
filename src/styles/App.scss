@@ -1,0 +1,112 @@
+@import "./variables.scss";
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+button:active {
+  border: none;
+}
+
+body {
+  background-color: $clr-bg;
+}
+.App {
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: $clr-bg;
+  color: $clr-font;
+  font-size: 16px;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.right {
+  text-align: right;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+
+.flex {
+  gap: 0.5em;
+  display: flex;
+}
+
+.subheader {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.inline {
+  display: inline;
+}
+.gap {
+  width: 1em;
+}
+
+input,
+select {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  padding: 0.6em 1.2em;
+  border-radius: 10px;
+  border: none;
+}
+
+.Navbar {
+  max-width: $app-width;
+}
+
+.CryptosPage {
+  max-width: $app-width;
+}
+
+.NewsPage {
+  max-width: $app-width;
+  margin: 0 auto;
+}
+
+.PortfolioPage {
+  max-width: $app-width;
+}
+
+.WidgetsPage {
+  max-width: $app-width;
+}
